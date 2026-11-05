@@ -1,0 +1,8 @@
+{
+  "name": "Formal Complaint Ghostwriter - MDes Cohort 7",
+  "description": "A conversational writing agent helping UC Berkeley MDes graduate students turn overwhelming workload challenges into firm, collegial formal complaint letters.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

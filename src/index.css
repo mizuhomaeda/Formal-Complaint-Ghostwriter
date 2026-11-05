@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Crimson Pro', Georgia, Cambria, 'Times New Roman', serif;
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-mono: 'JetBrains Mono', Menlo, Monaco, Consolas, monospace;
+  }
+}
+
+.font-serif-body {
+  font-family: var(--font-serif);
+}
+
+.font-sans-body {
+  font-family: var(--font-sans);
+}
+
+.font-mono-code {
+  font-family: var(--font-mono);
+}
+
+/* Print styling specifically for the generated letter */
+@media print {
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .letter-paper-print {
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
