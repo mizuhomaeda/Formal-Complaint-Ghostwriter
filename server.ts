@@ -2,7 +2,7 @@ import express from 'express';
 import dotenv from 'dotenv';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { processChatRequest, formatErrorMessage, MODEL_INFO } from './api/_gemini.ts';
+import { processChatRequest, formatErrorMessage, MODEL_INFO } from './api/_gemini';
 
 dotenv.config();
 

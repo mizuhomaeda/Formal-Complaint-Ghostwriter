@@ -297,7 +297,7 @@ export const SystemDiagramModal: React.FC<SystemDiagramModalProps> = ({
               <div className="p-3 grid grid-cols-1 sm:grid-cols-3 gap-2 bg-stone-50/50">
                 <span className="font-semibold text-stone-900">Model Token Stream</span>
                 <span className="text-emerald-700 font-medium">One token at a time</span>
-                <span className="text-stone-600">Autoregressive generation via gemini-3.1-flash-lite (with fallback to gemini-3.8-flash)</span>
+                <span className="text-stone-600">Autoregressive generation via gemini-3.1-flash-lite (with fallback to gemini-3.5-flash-lite)</span>
               </div>
               <div className="p-3 grid grid-cols-1 sm:grid-cols-3 gap-2 bg-white">
                 <span className="font-semibold text-stone-900">UI Output</span>

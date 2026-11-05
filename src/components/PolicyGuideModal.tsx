@@ -121,7 +121,7 @@ export const PolicyGuideModal: React.FC<PolicyGuideModalProps> = ({ isOpen, onCl
               <div className="flex items-center justify-between">
                 <span className="text-stone-500 font-medium">Automatic Fallback:</span>
                 <span className="font-mono-code text-stone-700 bg-stone-200/70 px-2 py-0.5 rounded">
-                  gemini-3.8-flash
+                  gemini-3.5-flash-lite
                 </span>
               </div>
               <p className="text-stone-600 pt-1 leading-relaxed">

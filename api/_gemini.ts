@@ -4,13 +4,17 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 export const PRIMARY_MODEL = 'gemini-3.1-flash-lite';
-export const FALLBACK_MODELS = ['gemini-3.8-flash', 'gemini-flash-latest'];
+export const FALLBACK_MODELS = [
+  'gemini-3.5-flash-lite',
+  'gemini-flash-lite-latest',
+  'gemini-3.1-flash-lite-preview',
+];
 
 export const MODEL_INFO = {
   currentModel: PRIMARY_MODEL,
-  fallbackModel: 'gemini-3.8-flash',
+  fallbackModel: 'gemini-3.5-flash-lite',
   displayName: 'Gemini 3.1 Flash Lite',
-  description: 'High-speed, lightweight model with high capacity availability on the standard Free Tier.',
+  description: 'Verified active model from ListModels API for Free Tier with sub-second response times.',
 };
 
 export const SYSTEM_INSTRUCTION = `You are the "Formal Complaint Ghostwriter".

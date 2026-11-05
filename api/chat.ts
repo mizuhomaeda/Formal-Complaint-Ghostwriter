@@ -1,4 +1,4 @@
-import { processChatRequest, formatErrorMessage } from './_gemini.ts';
+import { processChatRequest, formatErrorMessage } from './_gemini';
 
 export default async function handler(req: any, res: any) {
   // CORS support

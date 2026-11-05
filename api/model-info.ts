@@ -1,4 +1,4 @@
-import { MODEL_INFO } from './_gemini.ts';
+import { MODEL_INFO } from './_gemini';
 
 export default function handler(req: any, res: any) {
   res.setHeader('Access-Control-Allow-Credentials', 'true');
