@@ -115,17 +115,17 @@ export const PolicyGuideModal: React.FC<PolicyGuideModalProps> = ({ isOpen, onCl
               <div className="flex items-center justify-between">
                 <span className="text-stone-500 font-medium">Configured Model:</span>
                 <span className="font-mono-code font-semibold text-emerald-800 bg-emerald-100/70 px-2 py-0.5 rounded border border-emerald-200">
-                  gemini-flash-lite-latest
+                  gemini-3.1-flash-lite
                 </span>
               </div>
               <div className="flex items-center justify-between">
                 <span className="text-stone-500 font-medium">Automatic Fallback:</span>
                 <span className="font-mono-code text-stone-700 bg-stone-200/70 px-2 py-0.5 rounded">
-                  gemini-3.5-flash-lite
+                  gemini-3.8-flash
                 </span>
               </div>
               <p className="text-stone-600 pt-1 leading-relaxed">
-                The agent is configured to use Google's lightweight and fastest Gemini Flash Lite model. This provides sub-second responses and high capacity availability to prevent 503 high-demand queuing errors.
+                The agent is configured to use Google's lightweight and fastest Gemini Flash Lite model (gemini-3.1-flash-lite), supported on the standard Free Tier with high capacity availability to prevent 503 high-demand queuing errors.
               </p>
             </div>
           </div>

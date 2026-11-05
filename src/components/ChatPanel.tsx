@@ -269,7 +269,7 @@ export const ChatPanel: React.FC<ChatPanelProps> = ({
                   <p className="whitespace-pre-wrap">{m.content}</p>
                   {!isUser && (
                     <div className="mt-2 pt-1.5 border-t border-stone-100 flex items-center justify-between text-[10px] text-stone-400 font-mono-code">
-                      <span>Model: {m.modelUsed || 'gemini-flash-lite-latest'}</span>
+                      <span>Model: {m.modelUsed || 'gemini-3.1-flash-lite'}</span>
                     </div>
                   )}
                 </div>

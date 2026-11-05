@@ -73,7 +73,7 @@ export const Header: React.FC<HeaderProps> = ({
                   title="Currently active lightweight Gemini model"
                 >
                   <Zap className="w-3 h-3 text-emerald-300" />
-                  <span>Model: {activeModel || 'gemini-flash-lite-latest'}</span>
+                  <span>Model: {activeModel || 'gemini-3.1-flash-lite'}</span>
                 </span>
               </div>
               <p className="text-xs text-stone-300">

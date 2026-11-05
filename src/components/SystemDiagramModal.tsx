@@ -173,7 +173,7 @@ export const SystemDiagramModal: React.FC<SystemDiagramModalProps> = ({
                     <span>The Model (Token-by-Token)</span>
                   </h4>
                   <ul className="text-xs text-stone-600 space-y-1.5 mt-2">
-                    <li>• Active Model: <span className="font-mono-code font-bold text-stone-900">{activeModel || 'gemini-flash-lite-latest'}</span></li>
+                    <li>• Active Model: <span className="font-mono-code font-bold text-stone-900">{activeModel || 'gemini-3.1-flash-lite'}</span></li>
                     <li>• <strong className="text-stone-900">Sequential Token Generation:</strong> Produces response one token (word/fragment) at a time based on preceding tokens</li>
                     <li>• Constrained to valid JSON matching the Ghostwriter response schema</li>
                   </ul>
@@ -297,7 +297,7 @@ export const SystemDiagramModal: React.FC<SystemDiagramModalProps> = ({
               <div className="p-3 grid grid-cols-1 sm:grid-cols-3 gap-2 bg-stone-50/50">
                 <span className="font-semibold text-stone-900">Model Token Stream</span>
                 <span className="text-emerald-700 font-medium">One token at a time</span>
-                <span className="text-stone-600">Autoregressive generation via gemini-flash-lite-latest</span>
+                <span className="text-stone-600">Autoregressive generation via gemini-3.1-flash-lite (with fallback to gemini-3.8-flash)</span>
               </div>
               <div className="p-3 grid grid-cols-1 sm:grid-cols-3 gap-2 bg-white">
                 <span className="font-semibold text-stone-900">UI Output</span>

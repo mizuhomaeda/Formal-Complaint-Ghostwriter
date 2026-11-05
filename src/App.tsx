@@ -24,7 +24,7 @@ export default function App() {
   const [viewMode, setViewMode] = useState<'split' | 'chat' | 'document'>('split');
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [errorNotice, setErrorNotice] = useState<ErrorNotice | null>(null);
-  const [activeModel, setActiveModel] = useState<string>('gemini-flash-lite-latest');
+  const [activeModel, setActiveModel] = useState<string>('gemini-3.1-flash-lite');
 
   // Fetch model info from server
   useEffect(() => {
